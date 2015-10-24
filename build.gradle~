@@ -1,0 +1,30 @@
+subprojects {
+
+  apply plugin: 'java'
+  apply plugin: 'eclipse'
+ 
+  repositories {
+    mavenCentral()
+  }
+
+  // tag::dependencies[]
+  sourceCompatibility = 1.8
+  targetCompatibility = 1.8
+
+  dependencies {
+     testCompile "junit:junit:4.12"
+  }
+}
+
+// tag::jar[]
+jar {
+    baseName = 'java-design-patterns'
+    version =  '0.7.0'
+}
+// end::jar[]
+
+// tag::wrapper[]
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.5'
+}
+// end::wrapper[]

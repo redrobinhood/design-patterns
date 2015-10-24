@@ -1,0 +1,8 @@
+// tag::jar[]
+jar {
+    baseName = 'private-class-data'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+

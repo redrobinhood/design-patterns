@@ -1,0 +1,8 @@
+// tag::jar[]
+jar {
+    baseName = 'business-delegate'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+

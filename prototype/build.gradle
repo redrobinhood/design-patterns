@@ -1,0 +1,8 @@
+// tag::jar[]
+jar {
+    baseName = 'prototype'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+

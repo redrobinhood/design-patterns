@@ -1,0 +1,8 @@
+// tag::jar[]
+jar {
+    baseName = 'model-view-controller'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+

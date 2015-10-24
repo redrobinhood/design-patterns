@@ -1,0 +1,15 @@
+// tag::jar[]
+jar {
+    baseName = 'message-channel'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+dependencies {
+     compile "org.apache.camel:camel-core:2.16.0"
+     compile "org.apache.camel:camel-stream:2.16.0"
+  }
+
+
+
+

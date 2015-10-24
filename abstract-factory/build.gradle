@@ -1,0 +1,7 @@
+// tag::jar[]
+jar {
+    baseName = 'abstract-factory'
+    version =  '0.1.0'
+}
+// end::jar[]
+

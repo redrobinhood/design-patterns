@@ -1,0 +1,10 @@
+// tag::jar[]
+jar {
+    baseName = 'model-view-presenter'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+dependencies {
+     compile "com.google.inject:guice:4.0"
+  }

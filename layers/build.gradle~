@@ -1,0 +1,15 @@
+// tag::jar[]
+jar {
+    baseName = 'layers'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+dependencies {
+     compile "org.springframework.data:spring-data-jpa:1.9.0.RELEASE"
+     compile "org.hibernate:hibernate-entitymanager:5.0.2.Final"
+     compile "commons-dbcp:commons-dbcp:1.4"
+     compile "org.springframework.data:spring-data-jpa:1.9.0.RELEASE"
+  }
+
+

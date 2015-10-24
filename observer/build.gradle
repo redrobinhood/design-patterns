@@ -1,0 +1,8 @@
+// tag::jar[]
+jar {
+    baseName = 'observer'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+
