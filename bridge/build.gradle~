@@ -1,8 +1,0 @@
-// tag::jar[]
-jar {
-    baseName = 'async-method-invocation'
-    version =  '0.1.0'
-}
-// end::jar[]
-
-

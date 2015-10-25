@@ -1,8 +1,0 @@
-// tag::jar[]
-jar {
-    baseName = 'adapter'
-    version =  '0.7.0'
-}
-// end::jar[]
-
-
